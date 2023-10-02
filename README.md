@@ -14,7 +14,8 @@ One of my tasks during my PhD was to develop the software required to control al
 5. Coarse motion of the sensor that enables navigating to a sample's region of interest
 6. Rastering the sensor on a tilted plane while performing buffered acquisition of multiple measurements
 7. Monitor and control the temperature at various positions in the apparatus
-8. Live visualization of actions being performed
+8. Monitor and control a background magnetic field
+9. Live visualization of all actions being performed
 10. Scripting interface that enables automating all of the aforementioned functions within the software
 
 The code is primarily written in python 2.7 and uses a mix of Serial, GPIB, and TCIP protocols to communicate with the hardware that electronically controls the apparatus. 
