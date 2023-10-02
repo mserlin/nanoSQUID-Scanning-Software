@@ -11,12 +11,12 @@ One of my tasks during my PhD was to develop the software required to control al
 1. Characterization of nanoSQUID Sensors 
 2. Characterization of sample's bulk electronic properties
 3. Detecting contact between the nanoSQUID Sensor and a surface. This includes (1) an automated procedure for bringing the sensor in contact with the surface and (2) a safety feature that withdraws the sensor if accidental surface contact is detected at any point (for example, if an unsuspecting dust particle is on the sample that risks damaging either the sensor or sample)
-5. Coarse motion of the sensor that enables navigating to a sample's region of interest
-6. Rastering the sensor on a tilted plane while performing buffered acquisition of multiple measurements
-7. Monitor and control the temperature at various positions in the apparatus
-8. Monitor and control a background magnetic field
-9. Live visualization of all actions being performed
-10. Scripting interface that enables automating all of the aforementioned functions within the software
+4. Coarse motion of the sensor that enables navigating to a sample's region of interest
+5. Rastering the sensor on a tilted plane while performing buffered acquisition of multiple measurements
+6. Monitor and control the temperature at various positions in the apparatus
+7. Monitor and control a background magnetic field
+8. Live visualization of all actions being performed
+9. Scripting interface that enables automating all of the aforementioned functions within the software
 
 The code is primarily written in python 2.7 and uses a mix of Serial, GPIB, and TCIP protocols to communicate with the hardware that electronically controls the apparatus. 
 Asynchronous control of the hardware is performed using LabRAD, an asynchronous client/server RPC system designed for use in scientific laboratories.
