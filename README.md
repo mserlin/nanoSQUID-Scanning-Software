@@ -10,9 +10,7 @@ One of my tasks during my PhD was to develop the software required to control al
 
 1. Characterization of nanoSQUID Sensors 
 2. Characterization of sample's bulk electronic properties
-3. Detecting contact between the nanoSQUID Sensor and a surface. This includes:
-    a. Automated procedure for bringing the sensor in contact with the surface
-    b. Safe feature that withdraws the sensor if accidental surface contact is detected at any point (for example, if an unsuspecting dust particle is on the sample that risks damaging either the sensor or sample)
+3. Detecting contact between the nanoSQUID Sensor and a surface. This includes (1) an automated procedure for bringing the sensor in contact with the surface and (2) a safety feature that withdraws the sensor if accidental surface contact is detected at any point (for example, if an unsuspecting dust particle is on the sample that risks damaging either the sensor or sample)
 5. Coarse motion of the sensor that enables navigating to a sample's region of interest
 6. Rastering the sensor on a tilted plane while performing buffered acquisition of multiple measurements
 7. Monitor and control the temperature at various positions in the apparatus
